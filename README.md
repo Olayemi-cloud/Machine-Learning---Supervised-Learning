@@ -36,9 +36,10 @@ Follow these steps to use the Data Preprocessing for Machine Learning notebook:
 
 Launch Jupyter Notebook: Open a terminal (or Anaconda Prompt) and navigate to the directory containing the notebook file. Start Jupyter with the command jupyter notebook and open the file Data Preprocessing 1 ML.ipynb in your browser.
 
-##### Load the Dataset: Update the notebook to load your dataset. By default, the notebook may contain code to read a sample dataset using pandas.read_csv or similar. Replace the file path or dataset name with your own data as needed (e.g., df = pd.read_csv('your_dataset.csv')).
+Load the Dataset: Update the notebook to load your dataset. By default, the notebook may contain code to read a sample dataset using pandas.read_csv or similar. Replace the file path or dataset name with your own data as needed (e.g., df = pd.read_csv('your_dataset.csv')).
+
 Execute Preprocessing Steps: Run the notebook cells in order. The notebook is organized into sections for each preprocessing task (missing data handling, encoding, scaling, etc.). Execute each cell to perform the corresponding transformation on the data. You can run all cells sequentially by selecting Kernel > Restart & Run All in the Jupyter menu.
 
-##### Review Outputs: Throughout the notebook, observe the output of each step (such as summary statistics or printouts) to verify that the preprocessing is working as expected. For example, after handling missing values, you can check that no NaN values remain.
+Review Outputs: Throughout the notebook, observe the output of each step (such as summary statistics or printouts) to verify that the preprocessing is working as expected. For example, after handling missing values, you can check that no NaN values remain.
 
-##### Save the Cleaned Data: After all preprocessing steps are complete, you can save the cleaned and transformed dataset. The notebook may include a final cell to save the processed data to a new file (for example, using df.to_csv('cleaned_data.csv', index=False)). If not, you can add a cell with the appropriate pandas command to export your cleaned dataset for use in machine learning models.
+Save the Cleaned Data: After all preprocessing steps are complete, you can save the cleaned and transformed dataset. The notebook may include a final cell to save the processed data to a new file (for example, using df.to_csv('cleaned_data.csv', index=False)). If not, you can add a cell with the appropriate pandas command to export your cleaned dataset for use in machine learning models.
